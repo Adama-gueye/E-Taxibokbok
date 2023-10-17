@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container2 {
+    display: flex;
+
+
+}
+
+#form1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+input[type="text"],
+input[type="password"] {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.droite {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-left: 100px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+}
+
+.gauche {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1)
+    
+}
+
+
+#form1 {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="password"] {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+#input[type="text"] {
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ac1919;
+    border-radius: 5px;
+}
+#button1 {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #011f45;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 100px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#button2 {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #011f45;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    align-content: center;
+    text-align: center;
+    text-decoration: 0;
+    font-size: 20px;
+}
+
+#mdp {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    color: #1659b7;
+}
+
+#p2 {
+    text-align: center;
+    margin-left: 500px;
+}
+
+#form2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 10px;
+}
